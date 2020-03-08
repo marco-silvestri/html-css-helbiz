@@ -44,7 +44,20 @@
   }
 
   #how-works .col-sx,
-  #how-works .col-sx h3 {
+  #how-works .col-sx h3,
+  #how-works .col-dx h4 {
     text-align: center;
   }
+
+  #how-works .col-sx h3,
+  #how-works .col-dx h4,
+  .text {
+  background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  #how-works {
+    background: url('../img/helbiz-banner.jpg');
+    background-size: cover;
+  }
+
 }
