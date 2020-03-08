@@ -1,0 +1,50 @@
+/* RESPONSIVE Sytles */
+
+@media screen and (max-width: 720px) {
+
+  .menu-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #CCC;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 90%;
+  }
+
+  .float.w-50 {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  .w-33.float {
+    display: none;
+  }
+
+  .how-works-bg {
+    display: none;
+  }
+
+  #how-works .col-sx,
+  #how-works .col-dx {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #how-works .col-sx,
+  #how-works .col-dx {
+    padding-top: 60px;
+  }
+
+  #how-works .col-sx,
+  #how-works .col-sx h3 {
+    text-align: center;
+  }
+}
